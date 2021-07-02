@@ -1,6 +1,6 @@
 # Roblox-Account-Creation-Bot-With-Selenium
-Hi, I made this account creation bot In my computer science class, and decided to share It with Github.
+Hi, I made this account creation bot In my computer science class, and decided to share It on Github!
 
-This bot was made for https://repl.it I don't know how to Implemenate this In CLI
+I Initialy made this bot on https://repl.it so It doesn't function In CLI, this bot was not made for mass account creation but to practice using Selenium.
 
-Make sure to change the username, and password. You can use an automated username, and password for the best results.
+Make sure to change the username and password, this bot does not bypass Robloxs Arkose CAPTCHA
