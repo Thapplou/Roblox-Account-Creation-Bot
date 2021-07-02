@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 
-# Configuring Chrome #
+# Configure Chrome #
 chrome_options = Options()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
@@ -21,10 +21,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://roblox.com")
 
-# Wait For 1 Second #
-time.sleep(1)
-
-# Enter DOB #
+# Enter DoB #
 search = driver.find_element_by_id("MonthDropdown").click()
 driver.find_element_by_xpath("//Option[@value='Jun']").click()
 
@@ -36,11 +33,11 @@ driver.find_element_by_xpath('//Option[@value="1969"]').click()
 
 # Type In Username #
 search = driver.find_element_by_id("signup-username")
-search.send_keys("testuser8167945")
+search.send_keys("ChangeUsername")
 
 # Type In Password #
 search = driver.find_element_by_id("signup-password")
-search.send_keys("Admin:Password123")
+search.send_keys("ChangePassword")
 
 # Select Player Gender #
 search = driver.find_element_by_id("MaleButton").click()
